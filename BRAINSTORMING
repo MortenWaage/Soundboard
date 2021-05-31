@@ -1,1 +1,2 @@
-
+Lage piano med lyder når vi trikker på knappene.
+Kan f.eks bruke onclick for å kjøre en avspillingsfunksjon på hver knapp og sjekke i funksjonen på hvilken knapp som ble trykket på for å avgjøre lyden som skal spilles
