@@ -1,0 +1,19 @@
+
+html {
+    text-align: center;
+}
+
+.cssgrid
+{
+    grid-template-columns: auto auto auto;
+    display:grid;
+    align-content: start;
+    
+    width: 100px;
+    height: 100px;
+
+    padding: 10px;
+
+    column-gap: 3px;
+    row-gap: 3px;
+}

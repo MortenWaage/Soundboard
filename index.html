@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Soundboard</title>
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div id="grid" class ="cssgrid">
+
+            <img id="hest" onclick="playSound()" class="knapp" src="programmer_art.png">
+            <img id="sau" class="knapp" src="programmer_art.png">
+            <img id="ku" class="knapp" src="programmer_art.png">
+            <img id="høns" class="knapp" src="programmer_art.png">
+            <img id="spyflue" class="knapp" src="programmer_art.png">
+            <img id="geit" class="knapp" src="programmer_art.png">
+            <img id="geit" class="knapp" src="programmer_art.png">
+            <img id="rick" class="knapp" src="programmer_art.png">
+            <img id="roll" class="knapp" src="programmer_art.png">
+
+        </div>
+
+        <audio id="lyd1" class="sound" src="audio/aud_1.mp3"></audio>
+
+    </body>
+
+
+</html>
+
+<!-- Eksempelkode -->
+
+<!-- <audio id="audio1" src="myaudio.mp3"></audio>
+<button onClick="play()">Play</button>
+
+<script type="text/javascript">
+function play() {
+var audio = document.getElementById('audio1');
+if (audio.paused) {
+    audio.play();
+}else{
+    audio.pause();
+    audio.currentTime = 0
+}
+}
+</script>` -->
