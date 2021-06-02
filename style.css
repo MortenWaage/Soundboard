@@ -1,19 +1,25 @@
-
-html {
-    justify-items: center;
-}
+.parent {
+    display: grid;
+    place-items: center;
+  }
 
 .cssgrid
 {
     grid-template-columns: auto auto auto;
     display:grid;
     align-content: start;
-    
-    width: 100px;
-    height: 100px;
 
-    padding: 10px;
+    padding: 10%;
 
-    column-gap: 3px;
-    row-gap: 3px;
+    column-gap: 1vh;
+    row-gap: 1vh;
+
+    width: fit-content;
+
+    margin: 0vh;
+}
+img {
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(181, 230, 29);
 }
