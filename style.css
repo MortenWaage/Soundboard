@@ -22,4 +22,9 @@ img {
     width: 20vh;
     height: 20vh;
     background-color: rgb(181, 230, 29);
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
 }
